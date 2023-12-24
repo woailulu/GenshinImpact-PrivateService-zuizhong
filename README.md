@@ -6,72 +6,29 @@
 
 **注意:** 我们始终欢迎项目的贡献者。但在做贡献之前，请仔细阅读我们的[代码规范](https://github.com/Grasscutters/Grasscutter/blob/stable/CONTRIBUTING.md)。
 
-## 当前功能
+# GenshinProxy
 
-* 登录
-* 战斗
-* 好友
-* 传送
-* 祈愿
-* 多人游戏 *部分* 可用
-* 从控制台生成魔物
-* 背包功能（接收或升级物品、角色等）。
- 
-## 快速安装指南
+# 使用教程
 
-**注意:** 如需帮助，请加v或q
+有 Xposed 环境请使用 `GenshinProxy-release.apk` 不支持 `EDXposed & 原版Xposed` 只支持 `LSPosed`
 
-### 快速开始（全自动）
+不再提供免 `root` 版本!
 
-- 获取Java 17：
-- 获取MongoDB社区版
-- 获取游戏4.0正式版 (如果你没有4.0的客户端，可以在这里找到）：https://github.com/MAnggiarMustofa/GI-Download-Library/blob/main/GenshinImpact/Client/4.0.0.md)
+第一次使用请填写服务器地址后进入官服下载资源
 
-- 下载[最新的Cultivation版本]（使用以“.msi”为后缀的安装包）。
-- 以管理员身份打开Culivation，按右上角的下载按钮。
-- 点击“下载 Grasscutter 一体化”
-- 点击右上角的齿轮
-- 将游戏安装路径设置为你游戏所在的位置。
-- 将自定义Java路径设置为`C:\Program Files\Java\jdk-17\bin\java.exe`
-- 保持所有其它设置为默认值
+并保证浏览器能够打开你的服务器地址
 
-- 点击“启动”按钮旁边的小按钮。
-- 点击“启动”按钮。
-- 随便想一个用户名登录，不需要密码。
+若服务器未配置 `ssl` 证书请打开 `跳过SSL验证`
 
-### 构建
+## 错误代码
 
-Grasscutter使用Gradle来处理依赖和构建。
+- 4206 - 请打开 `强制模式`
+- 出现多服列表 - `保证浏览器能够打开你的服务器地址`
+- 网络错误 - `保证浏览器能够打开你的服务器地址`
 
-**前置：**
+# 赞助
 
-- [Java SE Development Kits - 17]
-- [Git]
-
-##### Windows
-
-```shell
-git clone --recurse-submodules https://github.com/Grasscutters/Grasscutter.git
-cd Grasscutter
-.\gradlew.bat # 设置开发环境
-.\gradlew jar # 编译
-```
-
-##### Linux（GNU）
-
-```bash
-git clone --recurse-submodules https://github.com/Grasscutters/Grasscutter.git
-cd Grasscutter
-chmod +x gradlew
-./gradlew jar # 编译
-```
-
-你可以在项目的根目录找到输出的jar。
-
-#视频
-
-[视频教程](https://pan.quark.cn/s/98fd83a1d181)
-
+![](image/qrcode.jpg)
 
 #捐赠
 ![微信](https://s2.loli.net/2023/10/29/JEP3fWQmKSpzkFe.jpg)![支付宝](https://s2.loli.net/2023/10/29/w4nKWplUYH5mCor.jpg)
